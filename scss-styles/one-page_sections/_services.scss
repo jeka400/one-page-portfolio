@@ -1,0 +1,43 @@
+@import '_colors';
+
+#services {
+    background-color: $pink;
+    height: 640px;
+}
+
+.blank {
+    height: 100px;
+}
+
+.services-list  {
+    background-color: $light-gray;
+    height: 540px;
+}
+    
+
+.services-list > .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 50% 50%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.service {
+    text-align: center;
+    padding: 20px;
+    align-self: center;
+
+}
+
+.service > i {
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: $gray;
+}
+
+.service > p {
+    color: $gray;
+    font-size: 15px;
+    line-height: 1.8;
+}

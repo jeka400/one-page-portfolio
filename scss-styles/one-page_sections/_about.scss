@@ -1,0 +1,29 @@
+@import '../_colors';
+
+#about {
+    background-color: $pink;
+    height: 420px;
+    width: 100%;
+    margin: auto;
+}
+
+#about > .container {
+    display: flex;
+    align-items: center;
+}
+
+.about-text {
+    text-align: center;
+    width: 45%;
+    margin: auto;
+}
+
+.about-text > p {
+    color: $gray;
+    margin-bottom: 0;
+}
+
+.signature {
+    width: 150px;
+}
+

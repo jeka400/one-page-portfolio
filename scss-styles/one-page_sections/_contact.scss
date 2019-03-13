@@ -1,0 +1,62 @@
+@import '_colors';
+
+#contact {
+    background-color: $light-gray;
+    height: 750px;
+
+}
+
+.contact-us {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.contact-us > p {
+    size: 18px;
+    line-height: 1.6;
+    color: $gray;
+}
+
+form {
+    width: 100%;
+}
+
+.client-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+}
+
+input {
+    background-color: $pink;
+    border: none;
+    height: 50px;
+    padding-left: 10px;
+    margin-top: 30px;
+}
+
+form > input,
+form > textarea {
+    width: 100%;
+}
+
+textarea {
+    margin-top: 30px;
+    border: none;
+}
+
+.btn-send {
+    color: $white;
+    font-size: 15px;
+    font-weight:600;
+    background-color: $blue;
+    padding: 20px 40px;
+    border: none; 
+    margin-top: 50px;
+}

@@ -1,0 +1,35 @@
+@import '_colors';
+
+#statistics {
+    height: 240px;
+    background-color: $blue;
+}
+
+#statistics > .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stat {
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr;
+    grid-column-gap: 20px;
+    color: $white;
+    align-self: center;
+}
+
+.stat-left > i {
+    font-size: 50px;
+}
+
+.number {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.stat-text {
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 5px;
+}

@@ -1,0 +1,47 @@
+@import '../_colors';
+
+.home-page-header {
+    background-color: $pink;
+}
+
+.home-page-header > .container {
+    grid-template-columns: 80% 20% !important;
+}
+
+.heading-home {
+    height: 410px;
+    padding-top: 100px;
+
+}
+
+.heading-home > .container {
+    text-align: center;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home-h {
+    font-size: 38px;
+    color: $black;
+    font-weight: 600;
+    margin-bottom: 20px;
+    
+}
+
+.home-p {
+    font-size: 18px;
+    color: $gray;
+    font-weight: 600;
+}
+
+.home-page-work {
+    height: 900px !important;
+    
+}
+
+.home-page-work > div > div {
+    grid-template-rows: repeat(3, 50%) !important;
+
+}

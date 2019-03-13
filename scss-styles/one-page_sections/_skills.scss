@@ -1,0 +1,36 @@
+@import '../_colors';
+
+#skills {
+    height: 570px;
+    background-color: $light-gray;
+}
+
+#skills > .container {
+    display: flex;
+    align-items: center;
+}
+
+.skills-text {
+    width: 50%;
+}
+
+.progress {
+    background-color: $pink !important;
+    height: 0.2rem !important;
+}
+
+.progress-skills {
+    margin-bottom: 40px;
+}
+
+.skills-headings {
+    font-size: 0.83rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.skills-headings > span {
+    margin-left: 10px;
+}

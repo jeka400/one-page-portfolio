@@ -1,0 +1,65 @@
+@import '_colors';
+
+footer {
+    height: 285px;
+    background-color: $dark-black;
+}
+
+footer > .container {
+    color: $white;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 1fr;
+    padding-top: 100px;
+
+}
+
+.rights > h5 {
+    font-size: 18px;
+    margin-bottom: 30px;
+
+}
+
+.rights > p {
+    font-size: 15px;
+}
+
+.footer-contact {
+    justify-self: center;
+}
+
+.footer-contact > p {
+    font-size: 15px;
+}
+
+.footer-nav-left {
+    justify-self: right;
+}
+
+.footer-nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.footer-nav > ol {
+    list-style-type: none;
+}
+
+.footer-nav > ol > li > a {
+    text-decoration: none;
+    color: $white;
+    font-size: 15px;
+}
+
+.footer-socials {
+    justify-self: right;
+}
+
+.footer-socials > ol {
+    list-style-type: none;
+}
+
+.footer-socials > ol > li > a {
+    text-decoration: none;
+    color: $white;
+    font-size: 15px;
+}

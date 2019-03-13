@@ -1,0 +1,69 @@
+@import '_colors';
+
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+
+
+
+@import '_footer';
+
+@import 'one-page_sections/_header';
+@import 'one-page_sections/_intro';
+@import 'one-page_sections/_about';
+@import 'one-page_sections/_skills';
+@import 'one-page_sections/_statistics';
+@import 'one-page_sections/_work';
+@import 'one-page_sections/_process';
+@import 'one-page_sections/_services';
+@import 'one-page_sections/_testimonials';
+@import 'one-page_sections/_contact';
+
+@import 'home-page_sections/_home';
+@import 'about-page_sections/_about';
+@import 'project-single-page_sections/_project-single';
+@import 'contact-page_sections/_contact';
+
+@import 'one-page_sections/mediaQuery.scss';
+
+
+
+
+.hide {
+    display: none !important;
+}
+
+.container {
+    width: 95% !important;
+    margin: auto;
+    height: 100%;
+    padding: 0;
+}
+
+.full-with-container {
+    width: 100%;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6; 
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url("/scss-styles/montserrat/Montserrat-Medium.otf") format("opentype");
+}
+
+body {
+    font-family: 'Montserrat';
+
+}
+
+.second-heading {
+    font-size: 2rem;
+    color: $black;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+
+
+

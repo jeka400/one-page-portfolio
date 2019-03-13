@@ -1,0 +1,49 @@
+@import '../_colors';
+
+#intro {
+    background-image: url("../../../images/intro.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+    height: 90vh;
+    padding-top: 80px;
+    background-position: center;
+}
+
+#intro > .container {
+    display: flex;
+}
+
+.intro-right {
+    width: 40%;
+    align-self: center;
+    margin-left: auto;
+
+}
+
+.intro-right > h1 {
+    font-size: 3rem;
+}
+
+.intro-right > p {
+    color: $gray;
+}
+
+.btn-intro {
+    text-decoration: none;
+}
+
+.btn-intro > button {
+    color: $white;
+    font-size: 15px;
+    font-weight:600;
+    background-color: $blue;
+    padding: 20px 40px;
+    border: none; 
+    margin-top: 50px;
+}
+
+
+
